@@ -208,7 +208,7 @@ nav .rightPart{
 }
 .second .card{
     width: 35vw;
-    height: 50vh;
+    height: 60vh;
     /* background-color: yellow; */
     margin: 20px;
     border: solid 1px rgb(192, 192, 192);
@@ -222,11 +222,12 @@ nav .rightPart{
     height: 150px;
 }
 .second .cardhead img{
-    height: 120px;
+    margin: 2.5vw;
+    height: 80px;
 }
 .second h2{
-    padding: 40px;
-    font-size: 40px;
+    padding: 40px 0 20px 40px;
+    font-size: 30px;
 
 }
 
@@ -237,6 +238,8 @@ nav .rightPart{
 }
 .second .rightarrow{
     font-size: 50px;
+    color: #36bd89;
+    
 }
 .second .cardbottom{
     margin-top: 9%;
@@ -263,7 +266,7 @@ nav .rightPart{
 }
 
 .second .cardbottom li{
-    /* padding: 10px 0 20px 0; */
+    /* padding: 10px 0 20pxca 0; */
     font-size: 17px;
     color: #5E5E5E;
     
@@ -273,4 +276,36 @@ nav .rightPart{
     text-transform: uppercase;
     margin-left: 20px;
     margin-top: 10px;
+}
+.card{
+    overflow: hidden;
+}
+.cardmain h4{
+    font-weight: 700;
+   
+}
+.container{
+    display: flex;
+    overflow-x: auto;
+    pointer-events: none;
+}
+.elems{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+justify-content: center;
+padding: 2vw;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.elems img{
+    height: 250px;
+    width: 400px;
+}
+
+.listline img{
+    height: 30px;
 }

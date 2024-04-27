@@ -87,3 +87,107 @@ nav .rightPart{
     width: 100%; 
     background-color: crimson;   
 }
+
+.third{
+    min-height: 100vh;
+    width: 100%; 
+    padding: 3vw 10vw;
+    background-color: white;   
+}
+.third h1{
+    font-size: 3.5rem;
+}
+.part1Third{
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;justify-content: space-between;
+    
+}
+.part1Third .cards{
+    background-color: white;
+    padding: 2vw;
+    margin: .5vw;
+}
+.cards{
+    display: flex;
+    border: 2px solid #dadada;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 25vw;
+    height: 20vh;
+    
+}
+.cards img{
+    height: 2rem;
+}
+.part1Third .cards h1{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.part1Third .cards p{
+    font-size: .9rem;
+}
+.part2Third{
+    margin-top: 3vw;
+    width: 100%;
+    background-color: #F5E4FF;
+    display: flex;
+    height: 180px;
+    align-items: center;justify-content: space-around;
+    border-radius: 15px;
+    
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.achievements{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #582A73;
+}
+.achievements img{
+    height: 94px;
+}
+
+.leftChild video{
+        height: 350px;
+        width: 500px;
+        /* border-radius: 30px; */
+}
+
+.rightChild{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.rightChild h1{
+    font-size: 2rem;
+}
+.rightChild button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    background-color:#144835;
+    color: white;
+}
+.rightChild p{
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+}
+.part3Third{
+    display: flex;
+    align-items: center;justify-content: space-around;
+    padding: 4vw 0 0 0 ;
+}
+

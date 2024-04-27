@@ -1,10 +1,175 @@
+/* :root{
+    --patterncolor: #46e4a24a;
+} */
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html,body{
     width: 100%;
     height: 100%;
 }
+.main{
+    width: 100%;
+    padding-top: 80px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #144835;
+    padding: 0 8vw;
+    position: fixed;
+    z-index: 999;
+}
+nav .rightPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: #FBFCFC;
+    font-weight: 300;
+
+}
+
+.rightPart i{
+    font-size: 12px;
+}
+
+.first{
+    width: 100%;
+    height: 80vh;
+    background-color:#144835;
+    display: flex;
+    overflow: hidden;
+    padding-top: 50px;
+    justify-content: center;
+    color:#FBFCFC;
+    /* padding-bottom: 5vw; */
+}
+.leftFirst{
+    width: 50%;
+    color: white;
+}
+.leftFirst #unique_color{
+    color: #AFE9D4;
+    margin-bottom: 1vw;
+}
+.leftFirst h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.leftFirst p{
+    width: 95%;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #FBFCFC;
+}
+.leftFirst button{
+    margin-top: 40px;
+    padding:11px 25px;
+    background-color: #FF7F4C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.rightFirst img{
+    margin-top: 1vw;
+    height: 450px;
+}
+/* Hardik's Work */
+.second{
+    height: 100vh;
+    width: 100%; 
+    padding-left: 12%;
+    padding-right: 12%;
+    /* background-color: crimson;   
+    background: radial-gradient(circle, var(--patterncolor) 10%, transparent 11%),radial-gradient(circle at bottom left, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at bottom right, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at top left, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at top right, var(--patterncolor) 5%, transparent 6%);
+        background-size: 3em 3em;
+        background-color: #ffffff4a; */
+}
+.second .cards{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background: white;
+   
+}
+.second .card{
+    width: 35vw;
+    height: 50vh;
+    /* background-color: yellow; */
+    margin: 20px;
+    border: solid 1px rgb(192, 192, 192);
+    box-shadow: 0 0 2px;
+    border-radius: 5px;
+}
+
+.second .cardhead{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+.second .cardhead img{
+    height: 120px;
+}
+.second h2{
+    padding: 40px;
+    font-size: 40px;
+
+}
+
+.second .cardmain{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+.second .rightarrow{
+    font-size: 50px;
+}
+.second .cardbottom{
+    margin-top: 9%;
+    background-color: #D7F4E9;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.second #secondcardbottom{
+    background-color: #FFE7D5;
+}
+
+.second ul{
+    list-style: none;
+    padding-left: 20px;
+
+}
+.second .listline{
+    display: flex;
+    margin: 20px;
+    
+}
+
+.second .cardbottom li{
+    /* padding: 10px 0 20px 0; */
+    font-size: 17px;
+    color: #5E5E5E;
+    
+}
+.second .prehead{
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.second .

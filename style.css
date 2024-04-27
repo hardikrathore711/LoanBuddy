@@ -90,7 +90,9 @@ nav .rightPart{
 .second{
     height: 100vh;
     width: 100%; 
-    background-color: crimson;   
+    padding-left: 12%;
+    padding-right: 12%;
+    
 }
 
 .third{
@@ -197,13 +199,7 @@ nav .rightPart{
 }
 
 
-    padding-left: 12%;
-    padding-right: 12%;
-    /* background-color: crimson;   
-    background: radial-gradient(circle, var(--patterncolor) 10%, transparent 11%),radial-gradient(circle at bottom left, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at bottom right, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at top left, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at top right, var(--patterncolor) 5%, transparent 6%);
-        background-size: 3em 3em;
-        background-color: #ffffff4a; */
-}
+    
 .second .cards{
     display: flex;
     align-items: center;
@@ -279,4 +275,3 @@ nav .rightPart{
     margin-left: 20px;
     margin-top: 10px;
 }
-.second .

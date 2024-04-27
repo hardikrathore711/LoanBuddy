@@ -1,3 +1,8 @@
+/* :root{
+    --patterncolor: #46e4a24a;
+} */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -81,7 +86,7 @@ nav .rightPart{
     margin-top: 1vw;
     height: 450px;
 }
-
+/* Hardik's Work */
 .second{
     height: 100vh;
     width: 100%; 
@@ -191,3 +196,87 @@ nav .rightPart{
     padding: 4vw 0 0 0 ;
 }
 
+
+    padding-left: 12%;
+    padding-right: 12%;
+    /* background-color: crimson;   
+    background: radial-gradient(circle, var(--patterncolor) 10%, transparent 11%),radial-gradient(circle at bottom left, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at bottom right, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at top left, var(--patterncolor) 5%, transparent 6%),radial-gradient(circle at top right, var(--patterncolor) 5%, transparent 6%);
+        background-size: 3em 3em;
+        background-color: #ffffff4a; */
+}
+.second .cards{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background: white;
+   
+}
+.second .card{
+    width: 35vw;
+    height: 50vh;
+    /* background-color: yellow; */
+    margin: 20px;
+    border: solid 1px rgb(192, 192, 192);
+    box-shadow: 0 0 2px;
+    border-radius: 5px;
+}
+
+.second .cardhead{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+.second .cardhead img{
+    height: 120px;
+}
+.second h2{
+    padding: 40px;
+    font-size: 40px;
+
+}
+
+.second .cardmain{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+.second .rightarrow{
+    font-size: 50px;
+}
+.second .cardbottom{
+    margin-top: 9%;
+    background-color: #D7F4E9;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.second #secondcardbottom{
+    background-color: #FFE7D5;
+}
+
+.second ul{
+    list-style: none;
+    padding-left: 20px;
+
+}
+.second .listline{
+    display: flex;
+    margin: 20px;
+    
+}
+
+.second .cardbottom li{
+    /* padding: 10px 0 20px 0; */
+    font-size: 17px;
+    color: #5E5E5E;
+    
+}
+.second .prehead{
+    color: grey;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.second .

@@ -223,7 +223,7 @@ nav .rightPart{
 }
 .second .cardhead img{
     margin: 2.5vw;
-    height: 90px;
+    height: 80px;
 }
 .second h2{
     padding: 40px 0 20px 40px;
@@ -238,7 +238,7 @@ nav .rightPart{
 }
 .second .rightarrow{
     font-size: 50px;
-    color: #144835;
+    color: #36bd89;
     
 }
 .second .cardbottom{
@@ -280,7 +280,10 @@ nav .rightPart{
 .card{
     overflow: hidden;
 }
-
+.cardmain h4{
+    font-weight: 700;
+   
+}
 .container{
     display: flex;
     overflow-x: auto;
@@ -301,4 +304,8 @@ padding: 2vw;
 .elems img{
     height: 250px;
     width: 400px;
+}
+
+.listline img{
+    height: 30px;
 }

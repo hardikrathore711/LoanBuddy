@@ -87,13 +87,7 @@ nav .rightPart{
     height: 450px;
 }
 /* Hardik's Work */
-.second{
-    height: 100vh;
-    width: 100%; 
-    padding-left: 12%;
-    padding-right: 12%;
-    
-}
+
 
 .third{
     min-height: 100vh;
@@ -110,12 +104,12 @@ nav .rightPart{
     align-items: center;justify-content: space-between;
     
 }
-.part1Third .cards{
+.part1Third .cardss{
     background-color: white;
     padding: 2vw;
     margin: .5vw;
 }
-.cards{
+.cardss{
     display: flex;
     border: 2px solid #dadada;
     gap: 1rem;
@@ -126,15 +120,15 @@ nav .rightPart{
     height: 20vh;
     
 }
-.cards img{
+.cardss img{
     height: 2rem;
 }
-.part1Third .cards h1{
+.part1Third .cardss h1{
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: .5rem;
 }
-.part1Third .cards p{
+.part1Third .cardss p{
     font-size: .9rem;
 }
 .part2Third{
@@ -198,7 +192,12 @@ nav .rightPart{
     padding: 4vw 0 0 0 ;
 }
 
-
+.second{
+    height: 100vh;
+    width: 100%; 
+    padding: 4vw 12%;
+    
+}
     
 .second .cards{
     display: flex;

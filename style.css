@@ -38,6 +38,10 @@ nav .rightPart{
     font-weight: 300;
 
 }
+nav .rightPart a{
+    text-decoration: none;
+    color: white;
+}
 
 .rightPart i{
     font-size: 12px;
@@ -288,6 +292,7 @@ nav .rightPart{
     display: flex;
     overflow-x: auto;
     pointer-events: none;
+    color: white;
 }
 .elems{
 display: flex;
@@ -309,3 +314,89 @@ padding: 2vw;
 .listline img{
     height: 30px;
 }
+
+.fourth{
+    background-color: black;
+}
+
+
+.footer {
+    background-color: #505259;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icons {
+    margin-right: 20px;
+  }
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #ffd700;
+  }
+  .subscribe-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  .subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffd700;
+    color: #333;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .copyright {
+    margin-top: 20px;
+  }
+.footer{
+    
+}
+  .footer-box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-head ul a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-head ul a:hover{
+    color: #EFD9D7;
+  }
+  .footer-head h3{
+    color: #B2B2B2;
+    text-transform: uppercase;
+    margin: 20px;
+  }
+.footer-head{
+    margin-bottom: 50px;
+}
+  .footer-head li{
+    margin: 10px 0 10px 0;
+    list-style: none;
+  }
+
+  .footer-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+

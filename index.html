@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
-      href="https://moneyview.in/favicon/favicon.ico"
+      href="LB logo.jpg"
       type="image/x-icon"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
@@ -23,12 +24,13 @@
         alt=""
       />
       <div class="rightPart">
-        <div class="navElems">Personal Loan</div>
-        <div class="navElems">Credit Tracker</div>
+        <div class="navElems"><a href="#cards">Personal Loan</a></div>
+        <div class="navElems"><a href="#cards">Credit Tracker</a></div>
         <div class="navElems">
           Calculators <span><i class="ri-arrow-down-s-line"></i></span>
         </div>
-        <div class="navElems">Contact Us</div>
+        <div class="navElems"><a href="#footer">Contact Us</a></div>
+        <div class="navElems"><a href="Login.html">Login</a></div>
       </div>
     </nav>
     <div class="main">
@@ -51,7 +53,7 @@
       </div>
       <div class="second">
         <div class="prehead"><h3>MoneyView Products</h3></div>
-        <div class="cards">
+        <div class="cards" id ="cards">
             <div class="card">
                 <div class="cardhead">
                     <h2>Personal<br>Loan</h2>
@@ -223,7 +225,91 @@
             </div>
         </div>
     </div>
+    <footer class="footer" id="footer">
+        <div class="footer-box">
+            <div class="footer-line">
+                <div class="footer-head">
+                    <h3>The Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Funding Member:DLAI</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-line">
+                <div class="footer-head">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Personal Loan</a></li>
+                        <li><a href="#">Credit Tracker</a></li>
+                        <li><a href="#">EMI Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-head">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Media Coverage</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            <div class="footer-line">
+                <div class="footer-head">
+                    <h3>Partners</h3>
+                    <ul>
+                        <li><a href="#">Lending Partners</a></li>
+                        <li><a href="#">Banking Partners</a></li>
+                        <li><a href="#">Business Partners</a></li>
+                        <li><a href="#">Digital Lead Partners</a></li>
+                        <li><a href="#">Collection Agencies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line">
+                <div class="footer-head">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li><a href="#">care@loanbuddy.in</a></li>
+                        <li><a href="#">080 6939 0476</a></li>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-head">
+                    <h3>Grievance Redresssal</h3>
+                    <ul>
+                        <li><a href="#">Loan Grievance Redresssal</a></li>
+                        <li><a href="#">Banking Grievance Redresssal</a></li>
+                        <li><a href="#">Pro Saver Grievance Redresssal</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-content">
+                <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <form class="subscribe-form">
+                  <input type="email" placeholder="Enter your email">
+                  <button type="submit">Subscribe</button>
+                </form>
+              </div>
+              <p class="copyright">
+                &copy; <span id="currentYear"></span> Your Website. All rights reserved.
+              </p>
+        </div>
+      </footer>
     </div>
+    
     <script src="./script.js"></script>
   </body>
 </html>

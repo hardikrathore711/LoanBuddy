@@ -8,3 +8,5 @@ gsap.to('.elems',{
     repeat:-1,
     ease:"none",
 })
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
